@@ -34,24 +34,27 @@
 
 /*BARRA DE MENU*/
 
-/**pone recuadro celeste**/
+/**pone recuadro gris**/
 .barra-menu {
-    padding-top: 20px;
     background-color: var(--fondo-Menu);
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
-/**saca los puntitos de la lista**/
+/**saca los puntitos de la lista y acomoda los botones en horizontal**/
 .lista {
     list-style: none;
+    display: flex;
 }
 
 /**boton de PASO en barra**/
 .boton-paso-menu {
     background-color: var(--magenta);
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 6px;
+    padding: 6px 25px;
     text-align: center;
+    margin-right: 10px;
 }
 
 /**pasar el mouse**/
@@ -62,9 +65,10 @@
 /**boton de GENERALES en barra**/
 .boton-gral-menu {
     background-color: var(--celeste);
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 6px;
+    padding: 6px 25px;
     text-align: center;
+    margin-right: 10px;
 }
 
 /**pasar el mouse**/
@@ -76,8 +80,9 @@
 .boton-informe-menu {
     border-radius: 15px;
     border: 1px solid white;
-    padding: 5px;
+    padding: 6px 25px;
     text-align: center;
+    margin-right: 10px;
 }
 
 /**pasar el mouse**/
@@ -89,47 +94,65 @@
 .link-barra {
     text-decoration: none;
     color: #FFF;
-    font-size: 10px;
+    font-size: 13px;
     text-transform: uppercase;
 }
+
 
 
 /*SECCION DE TITULO*/
 
 /**tamaño de la imagen**/
-.img-titulo {
+.img-titulo img {
+    display: flex;
     margin: 15px;
     width: 350px;
 }
 
 /**acomoda texto + imagen**/
-.seccion-titulo {
+
+#sec-titulo {
     display: flex;
 }
+
+/**acomoda texto **/
+.cont-titulo {
+    max-width: 60%;
+}
+
+/**deja un margen a los costados de todo el cont principal**/
+
+main {
+    margin: 0px 40px;
+}
+
 
 
 /*BOTONES ELECCIONES*/
 
 /**boton PASO**/
 .lista-paso-urna {
+    display: flex;
+
     background-color: var(--magenta);
     border-radius: 10px;
-    margin: 25px;
-    height: 400px;
-    width: 100px;
+    margin: 50px 25px;
+    height: 80px;
+    width: 400px;
     padding: 1rem;
 }
 
 /**boton GENERALES**/
 .lista-gral-urna {
+    display: flex;
     background-color: var(--celeste);
     border-radius: 10px;
-    margin: 25px;
-    height: 400px;
-    width: 100px;
+    margin: 50px 25px;
+    height: 80px;
+    width: 400px;
     padding: 1rem;
-
 }
+
 
 /**texto de botones elecciones**/
 .link-eleccion {
@@ -137,6 +160,3 @@
     color: #FFF;
     font-size: 28px;
 }
-
-
-
