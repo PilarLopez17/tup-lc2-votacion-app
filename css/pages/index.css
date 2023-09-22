@@ -42,10 +42,20 @@
     justify-content: flex-start;
 }
 
+/**mensaje de consultar**/
+.consultar {
+    color: white;
+    font-size: 14px;
+    align-self: center;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
 /**saca los puntitos de la lista y acomoda los botones en horizontal**/
-.lista {
+.barra-menu .lista {
     list-style: none;
     display: flex;
+    padding: 5px;
 }
 
 /**boton de PASO en barra**/
@@ -53,7 +63,6 @@
     background-color: var(--magenta);
     border-radius: 6px;
     padding: 6px 25px;
-    text-align: center;
     margin-right: 10px;
 }
 
@@ -91,7 +100,7 @@
 }
 
 /**textos de la barra**/
-.link-barra {
+.barra-menu .lista a {
     text-decoration: none;
     color: #fff;
     font-size: 13px;
@@ -108,7 +117,6 @@
 }
 
 /**acomoda texto + imagen**/
-
 #sec-titulo {
     display: flex;
 }
@@ -119,7 +127,6 @@
 }
 
 /**deja un margen a los costados de todo el cont principal**/
-
 main {
     margin: 0px 40px;
 }
@@ -127,31 +134,42 @@ main {
 /*BOTONES ELECCIONES*/
 
 /**boton PASO**/
-.lista-paso-urna {
-    display: flex;
-
+.boton-paso-urna {
     background-color: var(--magenta);
+    border: none;
     border-radius: 10px;
     margin: 50px 25px;
     height: 80px;
     width: 400px;
-    padding: 1rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
 }
 
 /**boton GENERALES**/
-.lista-gral-urna {
-    display: flex;
+.boton-gral-urna {
     background-color: var(--celeste);
+    border: none;
     border-radius: 10px;
     margin: 50px 25px;
     height: 80px;
     width: 400px;
-    padding: 1rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
 }
 
-/**texto de botones elecciones**/
-.link-eleccion {
+/**acomoda los 2 botones**/
+.botones-urna {
+    display: flex;
+    margin-left: 150px;
+}
+
+/**texto de botones urna**/
+.botones-urna a {
     text-decoration: none;
     color: #fff;
     font-size: 28px;
+
 }
+

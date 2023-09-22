@@ -36,10 +36,11 @@
 .selectores .filtrar {
     background-color: white;
     border-radius: 15px;
-    padding: 10px;
-    font-size: 10px;
+    padding: 6px 25px;
+    font-size: 13px;
     text-transform: uppercase;
     text-align: center;
+    margin-right: 8px;
     color: var(--textos);
 }
 
@@ -47,23 +48,27 @@
     background-color: var(--celeste);
     border-radius: 6px;
     padding: 6px 25px;
+    font-size: 13px;
+    text-transform: uppercase;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .selectores .informes {
     border-radius: 15px;
     border: 1px solid white;
     padding: 6px 25px;
+    font-size: 13px;
+    text-transform: uppercase;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .boton-inicio {
     background-color: var(--gris-claro);
     border-radius: 5px;
-    padding: 5px;
-    font-size: 10px;
+    padding: 6px 25px;
+    font-size: 13px;
     text-transform: uppercase;
     text-align: center;
     margin-right: 10px;
@@ -71,6 +76,10 @@
 
 .boton-inicio:hover {
     color: var(--textos);
+}
+
+main {
+    margin: 60px 80px;
 }
 
 .sec-mensaje p {
@@ -112,6 +121,7 @@
     font-size: 10px;
     text-align: center;
     padding: 5px;
+    margin-top: 15px;
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
@@ -122,10 +132,7 @@
     color: var(--textos);
 }
 
-.sec-contenido,
-.mesas,
-.electores,
-.escrutado {
+.sec-contenido {
     display: flex;
     justify-content: space-between;
 }
@@ -138,6 +145,7 @@
 }
 
 .mesas {
+    display: flex;
     background-color: var(--celeste);
     border-radius: 10px;
     margin: 15px;
@@ -148,6 +156,7 @@
 }
 
 .electores {
+    display: flex;
     background-color: var(--magenta);
     border-radius: 10px;
     margin: 15px;
@@ -158,6 +167,8 @@
 }
 
 .escrutado {
+    display: flex;
+
     background-color: var(--morado);
     border-radius: 10px;
     margin: 15px;
@@ -174,8 +185,8 @@
 }
 
 .recuadro {
-    width: 460px;
-    height: auto;
+    width: 400px;
+    height: 400px;
     border-radius: 25px;
     border: 1px var(--borde-Grilla) solid;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -183,13 +194,19 @@
 
 .recuadro h1 {
     font-weight: bold;
+    font-size: 18px;
     padding: 1rem 0 0 0;
     text-align: center;
     white-space: nowrap;
 }
 
 .recuadro h2 {
+    font-size: 17px;
     border-bottom: 1px solid var(--borde-Grilla);
+}
+
+.recuadro h3 {
+    font-size: 13px;
 }
 
 .agrupaciones-politicas {

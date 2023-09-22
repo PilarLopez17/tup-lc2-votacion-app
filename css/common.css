@@ -54,7 +54,7 @@ p {
 h1 {
   font-size: 26px;
   color: var(--titulos);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -87,13 +87,14 @@ h3 {
   height: auto;
   width: 100%;
   display: flex;
-  justify-content: center;
+  padding: 10px;
 }
 
 .texto-footer p {
   color: var(--texto-footer);
   padding: 10px;
-  width: 90%;
+  width: 80%;
+  line-height: 25px; /**espaciado entre lineas**/
 }
 
 .texto-footer p a {
