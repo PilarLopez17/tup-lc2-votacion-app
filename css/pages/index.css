@@ -93,12 +93,10 @@
 /**textos de la barra**/
 .link-barra {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
     font-size: 13px;
     text-transform: uppercase;
 }
-
-
 
 /*SECCION DE TITULO*/
 
@@ -126,8 +124,6 @@ main {
     margin: 0px 40px;
 }
 
-
-
 /*BOTONES ELECCIONES*/
 
 /**boton PASO**/
@@ -153,10 +149,9 @@ main {
     padding: 1rem;
 }
 
-
 /**texto de botones elecciones**/
 .link-eleccion {
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
     font-size: 28px;
 }

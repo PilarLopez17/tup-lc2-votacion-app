@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html,
@@ -45,7 +45,6 @@ body {
   --mensaje-usuario-rojo: #dc3545;
 }
 
-
 /*CONSIDERACIONES GENERALES*/
 p {
   font-size: 12px;
@@ -68,7 +67,6 @@ h3 {
   color: var(--titulos);
 }
 
-
 /*CABECERA*/
 .header-page {
   padding: 0.5em;
@@ -78,11 +76,10 @@ h3 {
   margin: 0px, auto, auto, auto;
 }
 
-.logo { 
+.logo {
   width: 150px;
   margin-left: 35px;
 }
-
 
 /*PIE DE PAGINA*/
 .footer {
@@ -93,17 +90,16 @@ h3 {
   justify-content: center;
 }
 
-.texto-footer p{
+.texto-footer p {
   color: var(--texto-footer);
   padding: 10px;
   width: 90%;
 }
 
-.texto-footer p a{
+.texto-footer p a {
   text-decoration: none;
   color: var(--texto-footer);
 }
-
 
 .icons-footer {
   display: flex;
