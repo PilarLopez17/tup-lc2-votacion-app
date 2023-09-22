@@ -44,6 +44,10 @@
     color: var(--textos);
 }
 
+.filtrar:hover {
+    background-color: var(--gris-claro);
+}
+
 .selectores .general {
     background-color: var(--celeste);
     border-radius: 6px;
@@ -54,6 +58,10 @@
     margin-right: 8px;
 }
 
+.general:hover {
+    background-color: var(--gris-claro);
+}
+
 .selectores .informes {
     border-radius: 15px;
     border: 1px solid white;
@@ -62,6 +70,10 @@
     text-transform: uppercase;
     text-align: center;
     margin-right: 8px;
+}
+
+.informes:hover {
+    background-color: var(--gris-claro);
 }
 
 .boton-inicio {
