@@ -1,3 +1,5 @@
+/*-----BARRA MENU-----*/
+/** recuadro gris**/
 .barra-menu {
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@
     list-style: none;
 }
 
+/**acomoda los li en la barra**/
 .selectores {
     display: flex;
     gap: 1rem;
@@ -17,12 +20,14 @@
     align-items: center;
 }
 
+/**estilo de los textos en la barra**/
 .selectores li a,
 .boton-inicio {
     text-decoration: none;
     color: white;
 }
 
+/**estilo de los select**/
 .selectores li select {
     background: transparent;
     border: none;
@@ -33,6 +38,7 @@
     font-weight: bold;
 }
 
+/**estilo de boton filtrar**/
 .selectores .filtrar {
     background-color: white;
     border-radius: 15px;
@@ -44,10 +50,12 @@
     color: var(--textos);
 }
 
+/**pasar mouse**/
 .filtrar:hover {
     background-color: var(--gris-claro);
 }
 
+/**estilo de boton generales**/
 .selectores .general {
     background-color: var(--celeste);
     border-radius: 6px;
@@ -58,10 +66,12 @@
     margin-right: 8px;
 }
 
+/**pasar mouse**/
 .general:hover {
     background-color: var(--gris-claro);
 }
 
+/**estilo de boton informes**/
 .selectores .informes {
     border-radius: 15px;
     border: 1px solid white;
@@ -72,10 +82,12 @@
     margin-right: 8px;
 }
 
+/**pasar mouse**/
 .informes:hover {
     background-color: var(--gris-claro);
 }
 
+/**estilo de boton inicio**/
 .boton-inicio {
     background-color: var(--gris-claro);
     border-radius: 5px;
@@ -86,14 +98,18 @@
     margin-right: 10px;
 }
 
+/**pasar mouse**/
 .boton-inicio:hover {
     color: var(--textos);
 }
 
+/**margenes al contenido principal**/
 main {
     margin: 60px 80px;
 }
 
+/*-----SECCION MENSAJES-----*/
+/**recuadro y texto**/
 .sec-mensaje p {
     width: 400px;
     margin: 20px auto;
@@ -105,11 +121,13 @@ main {
     text-align: center;
 }
 
+/**tamaño y acomodar icono**/
 .icono {
     margin-right: 10px;
     font-size: 15px;
 }
 
+/**colores recuadros**/
 .sec-mensaje .exito {
     background-color: var(--mensaje-usuario-verde);
 }
@@ -122,11 +140,14 @@ main {
     background-color: var(--mensaje-usuario-amarillo);
 }
 
+/*-----CONTENIDO PRINCIPAL-----*/
+/**estilo mensaje path**/
 .texto-path {
     font-size: 14px;
     color: var(--celeste);
 }
 
+/**estilo boton agregar a informe**/
 .boton-informe {
     background-color: var(--gris-claro);
     color: white;
@@ -140,15 +161,18 @@ main {
     padding: 10px 30px 10px 30px;
 }
 
+/**pasar mouse**/
 .boton-informe:hover {
     color: var(--textos);
 }
 
+/**acomoda y separa boton agregar a informe y los 3 recuadros de colores**/
 .sec-contenido {
     display: flex;
     justify-content: space-between;
 }
 
+/**acomoda y separa los 3 recuadros principales**/
 .container-recuadros {
     display: flex;
     justify-content: center;
@@ -156,6 +180,7 @@ main {
     align-self: center;
 }
 
+/**estilos de los 3 recuadros de colores**/
 .mesas {
     display: flex;
     background-color: var(--celeste);
@@ -196,6 +221,7 @@ main {
     color: #fff;
 }
 
+/**estilo de recuadros principales**/
 .recuadro {
     width: 400px;
     height: 400px;
@@ -204,6 +230,14 @@ main {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+/**acomoda recuadros principales**/
+.recuadros-centrales {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/**textos de recuadros principales**/
 .recuadro h1 {
     font-weight: bold;
     font-size: 18px;
@@ -221,28 +255,15 @@ main {
     font-size: 13px;
 }
 
+/**barra recuadro1**/
 .agrupaciones-politicas {
     overflow: scroll;
 }
 
+/**acomoda contenido de recuadro1**/
 .partido-interno {
     display: flex;
     justify-content: space-between;
-}
-
-.recuadros-centrales {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-}
-
-.provincia {
-    display: flex;
-    flex-direction: column;
-}
-
-.provincia svg {
-    align-self: center;
 }
 
 .partido {
@@ -254,6 +275,17 @@ main {
     align-self: center;
 }
 
+/**acomoda recuadro2 y su contenido**/
+.provincia {
+    display: flex;
+    flex-direction: column;
+}
+
+.provincia svg {
+    align-self: center;
+}
+
+/**grafica recuadro3**/
 /*barra de progreso*/
 .progress {
     height: 35px;
