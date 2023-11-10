@@ -12,6 +12,7 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="./css/pages/paso.css" />
+    <script defer src="js/pages/paso.js"></script>
 </head>
 
 <body>
@@ -24,26 +25,28 @@
         <ul class="barra-menu">
             <div class="selectores">
                 <li>
-                    <select name="anio" id="anio">
+                    <select name="anio" id="comboAnio" class="combosSelect">
                         <option value="anio">Año</option>
-                        <option value="diecinueve">2019</option>
-                        <option value="veintitres">2023</option>
                     </select>
                 </li>
                 <li>
-                    <select name="cargo" id="cargo">
+                    <select name="cargo" id="comboCargo" class="combosSelect">
                         <option value="cargo">Cargo</option>
-                        <option value="senadores">Senadores</option>
-                        <option value="diputados">Diputados</option>
                     </select>
                 </li>
                 <li>
-                    <select name="distrito" id="distrito">
+                    <select name="distrito" id="comboDistrito" class="combosSelect">
                         <option value="distrito">Distrito</option>
-                        <option value="bsas">Buenos Aires</option>
-                        <option value="stafe">Santa Fe</option>
                     </select>
                 </li>
+                <input type="hidden" id="hdSeccionProvincial" name="hdSeccionProvincial">
+
+                <li>
+                    <select name="seccion" id="comboSeccion" class="combosSelect">
+                        <option value="seccion">Sección</option>
+                    </select>
+                </li>
+
                 <li>
                     <a href="" class="filtrar"><i class="fa-solid fa-magnifying-glass icono-filtrar"></i> FILTRAR</a>
                 </li>

@@ -18,6 +18,7 @@
     list-style: none;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4px;
 }
 
 /**mensaje de consultar**/
@@ -27,6 +28,7 @@
     align-self: center;
     padding-left: 0px;
     padding-right: 25px;
+    padding-top: 4px;
 }
 
 /**boton de PASO en barra**/
@@ -73,6 +75,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-right: 10px;
+    padding-bottom: 4px;
 }
 
 /**pasar el mouse**/
@@ -131,7 +134,7 @@ main {
     border-radius: 15px;
     border: 1px solid var(--borde-Grilla);
     border-collapse: collapse;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(242, 238, 238);
 }
 
 /**estilo encabezados**/
@@ -153,7 +156,6 @@ main {
 /**estilo cuerpo**/
 .grilla tbody td {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid var(--borde-inferior-Grilla);
     padding: 15px 0;
     font-size: 12px;
     vertical-align: top;
@@ -187,10 +189,10 @@ main {
     background-color: var(--celeste);
     border-radius: 5px;
     margin: 2px;
-    height: 80px;
-    width: 160px;
+    height: 65px;
+    width: 125px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 11px;
     background-size: cover;
     display: flex;
 }
@@ -199,10 +201,10 @@ main {
     background-color: var(--magenta);
     border-radius: 5px;
     margin: 2px;
-    height: 80px;
-    width: 160px;
+    height: 65px;
+    width: 125px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 11px;
     background-size: cover;
     display: flex;
 }
@@ -211,10 +213,10 @@ main {
     background-color: var(--morado);
     border-radius: 5px;
     margin: 2px;
-    height: 80px;
-    width: 160px;
+    height: 65px;
+    width: 125px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 11px;
     background-size: cover;
     display: flex;
 }

@@ -12,6 +12,7 @@
 .selectores {
     display: flex;
     gap: 1rem;
+    padding-bottom: 4px;
     list-style: none;
     justify-content: center;
     align-items: center;
@@ -78,6 +79,8 @@
 }
 
 .boton-inicio {
+    display: flex;
+    justify-content: end;
     background-color: var(--gris-claro);
     border-radius: 5px;
     padding: 6px 25px;
@@ -85,6 +88,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-right: 10px;
+    padding-bottom: 4px;
 }
 
 .boton-inicio:hover {
@@ -197,6 +201,10 @@ main {
     color: #fff;
 }
 
+.agrupaciones-politicas  {
+    width: 500px !important
+}
+
 .recuadro {
     width: 400px;
     height: 400px;
@@ -214,16 +222,16 @@ main {
 }
 
 .recuadro h2 {
-    font-size: 17px;
+    font-size: 13px;
     border-bottom: 1px solid var(--borde-Grilla);
 }
 
 .recuadro h3 {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .agrupaciones-politicas {
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .partido-interno {
@@ -234,7 +242,7 @@ main {
 .recuadros-centrales {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .provincia {

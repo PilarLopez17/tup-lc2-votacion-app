@@ -15,6 +15,7 @@
 .selectores {
     display: flex;
     gap: 1rem;
+    padding-bottom: 4px;
     list-style: none;
     justify-content: center;
     align-items: center;
@@ -89,6 +90,8 @@
 
 /**estilo de boton inicio**/
 .boton-inicio {
+    display: flex;
+    justify-content: end;
     background-color: var(--gris-claro);
     border-radius: 5px;
     padding: 6px 25px;
@@ -96,6 +99,7 @@
     text-transform: uppercase;
     text-align: center;
     margin-right: 10px;
+    padding-bottom: 4px;
 }
 
 /**pasar mouse**/
@@ -222,6 +226,11 @@ main {
 }
 
 /**estilo de recuadros principales**/
+.agrupaciones-politicas  {
+    width: 500px !important
+}
+
+
 .recuadro {
     width: 400px;
     height: 400px;
@@ -234,10 +243,18 @@ main {
 .recuadros-centrales {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 /**textos de recuadros principales**/
+
+.agrupaciones-politicas h1 {
+    position: sticky; /* Hacerlo fijo */
+    top: 0;
+    background-color: white; /* Agregar un fondo para que sea visible */
+}
+
+
 .recuadro h1 {
     font-weight: bold;
     font-size: 18px;
@@ -247,17 +264,17 @@ main {
 }
 
 .recuadro h2 {
-    font-size: 17px;
+    font-size: 13px;
     border-bottom: 1px solid var(--borde-Grilla);
 }
 
 .recuadro h3 {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 /**barra recuadro1**/
 .agrupaciones-politicas {
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 /**acomoda contenido de recuadro1**/
@@ -284,6 +301,7 @@ main {
 .provincia svg {
     align-self: center;
 }
+
 
 /**grafica recuadro3**/
 /*barra de progreso*/
@@ -391,4 +409,8 @@ main {
     padding: 10px;
     display: inline-block;
     white-space: nowrap;
+}
+
+.combosSelect {
+    max-width: 170px;
 }

@@ -93,8 +93,9 @@ h3 {
 .texto-footer p {
   color: var(--texto-footer);
   padding: 10px;
-  width: 80%;
+  width: 100%;
   line-height: 25px; /**espaciado entre lineas**/
+  text-align: left;
 }
 
 .texto-footer p a {
